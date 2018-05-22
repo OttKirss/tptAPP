@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.Views.KooliTutvustus"
+             xmlns:vm="clr-namespace:App3.ViewModels;"
+             Title="{Binding Title}">
+    <StackLayout Orientation="Vertical">
+        <Image Source="https://www.tptlive.ee/wp-content/uploads/2014/07/tpt_logo2.png" />
+        <Label Text="TPT on kool kus saab õppida" />
+    </StackLayout>
+</ContentPage>
