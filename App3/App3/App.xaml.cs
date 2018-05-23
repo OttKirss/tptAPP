@@ -24,8 +24,10 @@ namespace App3
 		{
             // Handle when your app starts
             //see vist oncreate()?
-            AppCenter.Start("90f41a98-c3f5-43d2-869a-fa1c80bcc02c",
-                   typeof(Analytics), typeof(Crashes));
+            AppCenter.Start("android=90f41a98-c3f5-43d2-869a-fa1c80bcc02c;" +
+                  "uwp={Your UWP App secret here};" +
+                  "ios={Your iOS App secret here}",
+                  typeof(Analytics), typeof(Crashes));
         }
 
 		protected override void OnSleep ()
